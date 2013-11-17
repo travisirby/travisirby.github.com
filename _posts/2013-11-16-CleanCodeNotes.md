@@ -1,16 +1,17 @@
 ---
 layout: post
-category : lessons
-tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
+title: Clean Code - Pluralsight Notes Pt 1
+category : notes
+tagline: ""
+tags : [coding, best practices, csharp]
 ---
 {% include JB/setup %}
 
+### Clean Code: Writing Code for Humans
+#### Pluralsight Video Course Notes
 
-## Clean Code: Writing Code for Humans
-### Pluralsight Video Course Notes
+#####Assign booleans implicitly.
 
-Assign booleans implicitly:
 bad:
 {% highlight csharp %}
 bool isGoingToLunch
@@ -25,9 +26,12 @@ good:
 {% highlight csharp %}
 bool isGoingToLunch = cashInWallet > 6.00;
 {% endhighlight %}
+
 Always use positive bool statements (our brains have a harder time understanding double negatives) example of a bad bool:  !isNotLoggedIn
 
-Ternary (involving three variables) is elegant:
+
+#####Ternary is elegant.
+
 bad:
 {% highlight csharp %}
 int registrationFee;
@@ -37,12 +41,15 @@ good:
 int registrationFee = isSpeaker ? 0 : 50;
 {% endhighlight %}
 
-###DRY - DON’T REPEAT YOURSELF
 
-###YAGNI - YOU AIN’T GONNA NEED IT 
+#####DRY - DON’T REPEAT YOURSELF
+
+#####YAGNI - YOU AIN’T GONNA NEED IT 
 (don’t add unnecessary complexity you think you’ll need late)
 
-Avoid being “Stringly” Typed:
+
+#####Avoid being “Stringly” Typed.
+
 bad:
 {% highlight csharp %}
 if (employeeType == “manager”)
@@ -81,9 +88,11 @@ if (fileExtension == “mp4” ||
     fileExtension == “mpg” ||
     fileExtension == “avi”)  
     && (isAdmin || isActiveFile);
+{% endhighlight %}
 
 Favor expressive code over comments
 Good:
+{% highlight csharp %}
 if (ValidFileRequest(fileExtension, active))
 
 private bool ValidFileRequest (string fileExtension, bool isActiveFile, bool isAdmin)
@@ -96,12 +105,14 @@ private bool ValidFileRequest (string fileExtension, bool isActiveFile, bool isA
 
     return validFileType && userIsAllowedToViewFile;
 }
+{% endhighlight %}
 
 
 
 
 Favor Polymorphism over Enums for Behavior
 Dirty:
+{% highlight csharp %}
 private void LoginUser(User user)
 {
     switch (user.Status)
@@ -117,8 +128,10 @@ private void LoginUser(User user)
                         break;
           }
 }
+{% endhighlight %}
 
 Clean:
+{% highlight csharp %}
 private void LoginUser(User user)
 {
            user.Login();
@@ -153,11 +166,6 @@ private class LockedUser : User
                 // Locked user logic here
         }
 }
+{% endhighlight %}
 
 Be Declarative if possible (Take advantage of LINQ in C# and other languages)
-
-
-Please take a look at [{{ site.categories.api.first.title }}]({{ BASE_PATH }}{{ site.categories.api.first.url }})
-or jump right into [Usage]({{ BASE_PATH }}{{ site.categories.usage.first.url }}) if you'd like.
-{% endhighlight %}
-This website is created with Jekyll.
