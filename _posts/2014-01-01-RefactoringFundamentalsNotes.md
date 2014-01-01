@@ -7,38 +7,33 @@ tags : [coding, best practices, csharp]
 ---
 {% include JB/setup %}
 
-### Refactoring Fundamentals
-#### Pluralsight Video Course Notes
-
 ##### Why Should You Refactor?
 
--Improves Design
--Improves Readability
--Will uncover mistakes and reveal defects.
---Rereading code is important.
-Helps you program faster. Seems counterintuitive, but
-refactoring keeps technical debt low.
+* Improves Design and Readability
+* Will uncover mistakes and reveal defects.
+* Rereading code is important.
+* It keeps technical debt low.
 
 #### Technical Debt
 
-- Originally coined by Ward Cunningham in the '90s.
--- "Shipping first time code is like going into debt. A little
-    debt speeds development so long as it is paid back promptly
-    with a rewrite [refactoring]… The danger occurs when the debt
-    is not repaid. Every minute spent on not-quite-right code
-    counts as interest on that debt. Entire engineering organizations 
-    can be brought to a standstill under the debt load of an
-    unconsolidated implementation."
+* Originally coined by Ward Cunningham in the '90s:
+
+> Shipping first time code is like going into debt. A little
+debt speeds development so long as it is paid back promptly
+with a rewrite [refactoring]… The danger occurs when the debt
+is not repaid. Every minute spent on not-quite-right code
+counts as interest on that debt. Entire engineering organizations 
+can be brought to a standstill under the debt load of an
+unconsolidated implementation. -Ward
 
 #### When Should You Refactor?
-
-- Shutting down progress completely to refactor should be avoided
--- This will lead to the same negative pattern in the future.
-- If a part of the system is causing you pain.
-- When it will make implementing a new function easier.
-- TDD Red-Green-Refactor
-- As part of the process of fixing bugs.
-- As part of code reviews. Pair programing.
+* Shutting down progress completely to refactor should be avoided
+	* This will lead to the same negative pattern in the future.
+* If a part of the system is causing you pain.
+* When it will make implementing a new function easier.
+* TDD Red-Green-Refactor
+* As part of the process of fixing bugs.
+* As part of code reviews. Pair programing.
 
 #### When Should You Not Refactor?
 
