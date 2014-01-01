@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Clean Code - Pluralsight Notes Pt 1
+title: Clean Code - Notes 01
 category : notes
 tagline: ""
 tags : [coding, best practices, csharp]
@@ -10,7 +10,7 @@ tags : [coding, best practices, csharp]
 ### Clean Code: Writing Code for Humans
 #### Pluralsight Video Course Notes
 
-#####Assign booleans implicitly.
+##### Assign booleans implicitly.
 
 bad:
 {% highlight csharp %}
@@ -30,7 +30,7 @@ bool isGoingToLunch = cashInWallet > 6.00;
 Always use positive bool statements (our brains have a harder time understanding double negatives) example of a bad bool:  !isNotLoggedIn
 
 
-#####Ternary is elegant.
+##### Ternary is elegant.
 
 bad:
 {% highlight csharp %}
@@ -42,13 +42,13 @@ int registrationFee = isSpeaker ? 0 : 50;
 {% endhighlight %}
 
 
-#####DRY - DON’T REPEAT YOURSELF
+##### DRY - DON’T REPEAT YOURSELF
 
-#####YAGNI - YOU AIN’T GONNA NEED IT 
+##### YAGNI - YOU AIN’T GONNA NEED IT 
 (don’t add unnecessary complexity you think you’ll need late)
 
 
-#####Avoid being “Stringly” Typed.
+##### Avoid being “Stringly” Typed.
 
 bad:
 {% highlight csharp %}
