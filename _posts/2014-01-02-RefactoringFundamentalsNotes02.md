@@ -96,6 +96,10 @@ comments: false
 	* Replace State-Altering Conditionals with State Pattern
 	* Replace Conditionals with Strategy Design Pattern
 
+[Example IMG 01](images/primitive_obsession01.png)
+[Example IMG 02](images/primitive_obsession02.png)
+[Example IMG 03](images/primitive_obsession03.png)
+
 **Long Parameter Lists**
 	* Bloats code and reduces readability
 	* May Indicate procedural rather than OO programming style
@@ -114,5 +118,5 @@ comments: false
 	* Implement an Interface
 	* Extract Method
 **Tools** 
-	* [NDepend](Ndepend.com) 
-	* [Nitriq](Nitriq.com) *free*
+	* [NDepend](http://www.ndepend.com) 
+	* [Nitriq](http://www.nitriq.com) *free*
