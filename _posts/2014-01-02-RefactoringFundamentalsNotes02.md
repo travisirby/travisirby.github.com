@@ -27,16 +27,16 @@ tags : [coding, best practices, csharp]
 
 1. **The Bloaters**
 	* Things that have grown out of control
-		* Usually happens little-by-little
+		* Usually happens little-by-little <br />
 	* Long Method
 		* You should prefer short methods to long methods.
 		* There will be less duplicate code in smaller methods.
 		* Smaller methods lead to more descriptive names.
 		* Smaller methods are easier to undestand at a glance.
-		* How Small? 10 lines or fewer. Definitely within a screen view. 
+		* How Small? 10 lines or fewer. Definitely within a screen view. <br /> 
 		* RELATED: 
 			* Long Loops (Nested Loop, Complex Logic to Break Loop)
-			* Functions that do more than one thing.
+			* Functions that do more than one thing.<br />
 		* SOLVING Long Method:
 			* Extract Method
 				* Introduce Parameter Object
