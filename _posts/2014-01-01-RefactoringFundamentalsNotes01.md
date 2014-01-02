@@ -26,6 +26,7 @@ tags : [coding, best practices, csharp]
 >can be brought to a standstill under the debt load of an
 >unconsolidated implementation. -Ward
 
+
 #### When Should You Refactor?
 
 * Shutting down progress completely to refactor should be avoided
@@ -35,6 +36,7 @@ tags : [coding, best practices, csharp]
 * TDD Red-Green-Refactor
 * As part of the process of fixing bugs.
 * As part of code reviews. Pair programing.
+
 
 #### When Should You Not Refactor?
 
@@ -46,11 +48,11 @@ tags : [coding, best practices, csharp]
 * Imminent Deadline
 	* Accept the technical debt, Repay later
 	
->  Other than when you are very close to a deadline, however, you 
-should not put off refactoring because you haven't got time. Experience
-with several projects has shown that a bout of refactoring results 
-in increased productivity. Not having enough time usually is a sign
-that you need to do some refactoring. - Martin Fowler
+> Other than when you are very close to a deadline, however, you 
+> should not put off refactoring because you haven't got time. Experience
+> with several projects has shown that a bout of refactoring results 
+> in increased productivity. Not having enough time usually is a sign
+> that you need to do some refactoring. - Martin Fowler
  
 
 #### Refactoring Principles
@@ -62,6 +64,7 @@ that you need to do some refactoring. - Martin Fowler
 *  Reduce Overall Code
 	* Unless it would make it less expressive or more complex
 	* Avoid cryptic, terse code.
+
 
 #### Kent Beck's Rules of Simple Design
 ##### (in priority order)
