@@ -19,7 +19,7 @@ tags : [coding, best practices, csharp]
 * Originally coined by Ward Cunningham in the '90s:
 > Shipping first time code is like going into debt. A little
 >debt speeds development so long as it is paid back promptly
->with a rewrite [refactoring]… The danger occurs when the debt
+>with a rewrite \[refactoring\]… The danger occurs when the debt
 >is not repaid. Every minute spent on not-quite-right code
 >counts as interest on that debt. Entire engineering organizations 
 >can be brought to a standstill under the debt load of an
@@ -45,11 +45,11 @@ tags : [coding, best practices, csharp]
 * Imminent Deadline
 	* Accept the technical debt, Repay later
 	
->  *Other than when you are very close to a deadline, however, you 
+>  Other than when you are very close to a deadline, however, you 
 should not put off refactoring because you haven't got time. Experience
 with several projects has shown that a bout of refactoring results 
 in increased productivity. Not having enough time usually is a sign
-that you need to do some refactoring. - Martin Fowler*
+that you need to do some refactoring. - Martin Fowler
  
 
 #### Refactoring Principles
