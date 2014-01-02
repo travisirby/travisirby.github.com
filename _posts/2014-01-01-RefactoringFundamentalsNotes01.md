@@ -14,7 +14,7 @@ tags : [coding, best practices, csharp]
 * Rereading code is important.
 * It keeps technical debt low.
 
-
+<br />
 #### Technical Debt
 
 * Originally coined by Ward Cunningham in the '90s:
@@ -26,7 +26,7 @@ tags : [coding, best practices, csharp]
 >can be brought to a standstill under the debt load of an
 >unconsolidated implementation. -Ward
 
-
+<br />
 #### When Should You Refactor?
 
 * Shutting down progress completely to refactor should be avoided
@@ -37,7 +37,7 @@ tags : [coding, best practices, csharp]
 * As part of the process of fixing bugs.
 * As part of code reviews. Pair programing.
 
-
+<br />
 #### When Should You Not Refactor?
 
 * Massive Technical Debt:
@@ -54,7 +54,7 @@ tags : [coding, best practices, csharp]
 > in increased productivity. Not having enough time usually is a sign
 > that you need to do some refactoring. - Martin Fowler
  
-
+<br />
 #### Refactoring Principles
 
 * Keep it simple
@@ -65,7 +65,7 @@ tags : [coding, best practices, csharp]
 	* Unless it would make it less expressive or more complex
 	* Avoid cryptic, terse code.
 
-
+<br />
 #### Kent Beck's Rules of Simple Design
 ##### (in priority order)
 
