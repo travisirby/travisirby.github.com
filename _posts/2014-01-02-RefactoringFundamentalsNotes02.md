@@ -113,5 +113,5 @@ tags : [coding, best practices, csharp]
 	* Implement an Interface
 	* Extract Method
 **Tools** 
-	* (NDepend)[Ndepend.com] 
-	* (Nitriq)[Nitriq] *free*
+	* [NDepend](Ndepend.com) 
+	* [Nitriq](Nitriq.com) *free*
