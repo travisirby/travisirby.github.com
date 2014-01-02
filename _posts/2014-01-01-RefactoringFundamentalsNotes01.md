@@ -14,6 +14,8 @@ tags : [coding, best practices, csharp]
 * Rereading code is important.
 * It keeps technical debt low.
 
+
+<br />
 #### Technical Debt
 
 * Originally coined by Ward Cunningham in the '90s:
