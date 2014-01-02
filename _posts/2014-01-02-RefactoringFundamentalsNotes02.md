@@ -48,9 +48,9 @@ tags : [coding, best practices, csharp]
 
 &nbsp;
 
-	*RELATED:* 
-	* Long Loops (Nested Loop, Complex Logic to Break Loop)
-	* Functions that do more than one thing.<br />
+*RELATED:* 
+* Long Loops (Nested Loop, Complex Logic to Break Loop)
+* Functions that do more than one thing.<br />
 
 SOLVING Long Method:
 * Extract Method
