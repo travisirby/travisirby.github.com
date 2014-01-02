@@ -77,3 +77,41 @@ tags : [coding, best practices, csharp]
 	* Replace Conditional Dispatcher with Command
 	* Replace State-Altering Conditionals with State
 	* Replace Implicit Language With Interpreter Pattern
+
+**Primitive Obssession**
+	* Low level types are overused instead of more specific objects
+	* This causes bloat because of the additional code needed
+	* If primitives must be within a certain range:
+		* Guard Clauses and Validation should be added
+	* Primitives are less intention-revealing
+	* McConnell in *Code Complete*: 
+		* Use primitive type overloading for addition behaviors
+* *Refactoring Away from Primitive Obsession*
+	* Replace Data Values with Objects
+	* Replace Type Code with a Class or SubClass
+	* Extract Class
+	* Introduce Parameter Object
+	* Replace Args Array with Object
+	* Replace State-Altering Conditionals with State Pattern
+	* Replace Conditionals with Strategy Design Pattern
+
+**Long Parameter Lists**
+	* Bloats code and reduces readability
+	* May Indicate procedural rather than OO programming style
+* Related Smells (from *Refactoring*)
+	1. Message Chains (Too many relays between messages)
+	2. Middle Man (Too many methods that relay between others)
+* Related Smells (from *Clean Code*)
+	1. No More Than Three Parameters per Method
+	2. No output arguments (counter-intuitive)
+	3. No flag arguments (indicate function does more than one thing)
+	4. No Selector Arguments (same as above)
+> *Prefer more, smaller, well-named methods to fewer methods with
+> behavior controlled by parameters.*
+* Refactoring from Long Parameter List
+	* Replace Parameter with Method
+	* Implement an Interface
+	* Extract Method
+**Tools** 
+	* (NDepend)[Ndepend.com] 
+	* (Nitriq)[Nitriq] *free*
