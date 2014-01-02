@@ -4,6 +4,7 @@ title: Refactoring Fundamentals -  Notes 02
 category : notes
 tagline: ""
 tags : [coding, best practices, csharp]
+comments: false
 ---
 {% include JB/setup %}
 
