@@ -96,11 +96,11 @@ comments: false
 	* Replace State-Altering Conditionals with State Pattern
 	* Replace Conditionals with Strategy Design Pattern
 
-[Example IMG 01](<url_root>/images/primitive_obsession01.png)
+[Example IMG 01]({{ site.url }}/images/primitive_obsession01.png)
 
-[Example IMG 02](<url_root>/images/primitive_obsession02.png)
+[Example IMG 02]({{ site.url }}/images/primitive_obsession02.png)
 
-[Example IMG 03](<url_root>/images/primitive_obsession03.png)
+[Example IMG 03]({{ site.url }}/images/primitive_obsession03.png)
 
 **Long Parameter Lists**
 	* Bloats code and reduces readability
