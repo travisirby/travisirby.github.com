@@ -46,6 +46,8 @@ tags : [coding, best practices, csharp]
 * Smaller methods are easier to undestand at a glance.
 * How Small? 10 lines or fewer. Definitely within a screen view. 
 
+&nbsp;
+
 	*RELATED:* 
 	* Long Loops (Nested Loop, Complex Logic to Break Loop)
 	* Functions that do more than one thing.<br />
