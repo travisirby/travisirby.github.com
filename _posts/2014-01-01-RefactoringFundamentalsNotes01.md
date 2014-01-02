@@ -74,7 +74,7 @@ tags : [coding, best practices, csharp]
 3. Express all the ideas the author wants to express
 4. Minimize classes and methods
 
-
+<br />
 #### *Boy Scout Rule of Coding*
 #### *Leave Your Code Better Than You Found It*
 
